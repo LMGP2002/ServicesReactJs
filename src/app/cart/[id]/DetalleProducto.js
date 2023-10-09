@@ -15,9 +15,13 @@ export default function DetalleProducto({detalleProduct,index}){
         <>
             {visible&&
             <div >
-                <h2>Detalle Producto {index}</h2>
-                <h4>Id del producto: {detalle.productId}</h4>
-                <p>Cantidad: {detalle.quantity}</p>
+                <h2>Detalle Producto {index}:</h2>
+                <h4>Id del producto: {detalle.id}</h4>
+                <p>Nombre: {detalle.title}</p>
+                <p>Precio: ${detalle.price}</p>
+                <p>Categoría: ${detalle.category}</p>
+                <p>Descripción: ${detalle.description}</p>
+                <img className={styles.img} src={detalle.image}></img>
             </div>
             }
             

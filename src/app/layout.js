@@ -17,7 +17,9 @@ export default function RootLayout({ children }) {
         </header>
         <nav className={styles.nav}>
           <Link href={'/'}>Carts</Link>
-          <Link href={'/'}>New Carts</Link>
+          <Link href={'/newcart'}>New Carts</Link>
+          <Link href={'/products'}>Products</Link>
+          <Link href={'/newproduct'}>New Product</Link>
         </nav>
         <main className={styles.main}>
           {children}

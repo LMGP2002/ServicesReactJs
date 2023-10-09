@@ -19,3 +19,8 @@
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
+
+.img{
+    width: 150px;
+    height: 150px;
+}

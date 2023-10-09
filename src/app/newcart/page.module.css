@@ -1,0 +1,39 @@
+.form{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.formGroup input{
+    margin-left: 10px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.btnFormCart{
+    align-self: center;
+    border: none;
+    width: 230px;
+    padding: 5px 3px;
+    color: #ffffff;
+    background-color: rgb(71, 120, 175);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.btnFormCart:hover{
+    background-color: rgb(56, 93, 136);
+
+}

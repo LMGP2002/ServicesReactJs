@@ -1,5 +1,4 @@
 "use client";
-import Image from 'next/image'
 import styles from './page.module.css'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation';
@@ -34,6 +33,7 @@ export default function Home() {
   
   return (
     <>
+       <h2>Carritos</h2>
       <section className={styles.sectionCard}>
         {carts.map(e=>(
           <div key={e.id} className={styles.card}>

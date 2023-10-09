@@ -27,6 +27,7 @@ header{
 main{
   grid-area: main;
   background-color: rgb(230, 227, 233);
+  overflow:auto;
 }
 
 
